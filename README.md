@@ -37,18 +37,31 @@ Analyzed seasonal revenue fluctuations, identifying December as the peak period 
 
 ![img1](images/img1.png)
 
-
 ## *- Which city achieved the highest sales volume?*
 Mapped geographical data to prove San Francisco (CA) completely dominates sales with over 8.2M in volume, indicating a primary strategic market hub.
 
+![img2](images/img2.png)
+
 ## - *What is the optimal time to display advertisements?* 
 Plotted dynamic hourly consumer purchasing peaks to find two dominant daily traffic windows: 11:00 AM–12:00 PM and 7:00 PM.
+
+![img3](images/img3.png)
 
 ## *- What products are most frequently sold together?* 
 Performed duplicate order association grouping, revealing that iPhones paired with Lightning Cables and Google Phones paired with USB-C Cables are the highest-performing companion item bundles.
 
 ## *- How do product price metrics correlate to overall units sold?* 
 Built a dual-axis overlay visualization proving the inverse correlation between premium high-ticket revenue drivers (e.g., MacBooks) and high-volume, low-cost utility drivers (e.g., AAA batteries).
+
+![img5](images/img5.png)
+
+## *- What product sold the most? Why do you think it sold the most?*
+The product that sold the absolute most is AAA Batteries (4-pack), leading the chart
+Because Batteries are exceptionally cheap compared to electronics like smartphones or laptops. Because the financial barrier to entry is practically nonexistent, consumers buy them frequently and in large quantities without hesitation.
+AAA batteries are everyday consumable items. They power a massive array of household goods—tv remotes, wireless mice, keyboards, toys, and clocks. Unlike a phone or a laptop (which a customer buys once every few years), batteries run out of juice and constantly need to be replaced, driving high-volume, repetitive sales.
+
+![img4](images/img4.png)
+
 
 # 🛠️ Tech Stack & Libraries
 Language: Python
