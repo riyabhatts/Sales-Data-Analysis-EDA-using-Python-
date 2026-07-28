@@ -35,7 +35,7 @@ Extracted hidden temporal markers (Hour, Month) from standard date strings to ev
 ## *- What was the best month for sales?* 
 Analyzed seasonal revenue fluctuations, identifying December as the peak period with ~4.61M in revenue, heavily driven by holiday demand.
 
-![img1](Chartsfolder/img1.png)
+![img1](Charts/img1.png)
 
 
 ## *- Which city achieved the highest sales volume?*
