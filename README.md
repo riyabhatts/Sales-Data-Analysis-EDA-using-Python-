@@ -1,4 +1,5 @@
-<img width="951" height="108" alt="image" src="https://github.com/user-attachments/assets/0235e23b-246f-4984-b407-29ac7c00d97a" /># E-Commerce Sales Performance & Consumer Behavior Analysis
+# SALES ANALYSIS
+
 # 📌 Project Overview
 This repository contains an end-to-end Python data analysis project focused on cleaning, engineering, and exploring a 12-month electronics retail dataset. The project transitions raw, fragmented monthly transactional data into an optimized master dataset to extract key business intelligence insights regarding seasonal trends, regional demand, advertising schedules, and cross-selling product bundles.
 
@@ -15,23 +16,23 @@ My objective was to:
 
 # Action
 1. Data Consolidation & Merging
-Automated the pipeline to loop through 12 individual monthly .csv sales files.
+   Automated the pipeline to loop through 12 individual monthly .csv sales files.
 
-Dynamically filtered out system-hidden files and concatenated 186,850 rows of transactional data into a unified database (all_data_copy.csv).
+   Dynamically filtered out system-hidden files and concatenated 186,850 rows of transactional data into a unified database (all_data_copy.csv).
 
 2. Data Cleaning & Wrangling
-Identifed and dropped 545 null rows to maintain structural integrity.
+   Identifed and dropped 545 null rows to maintain structural integrity.
 
-Resolved data anomalies by filtering out row errors where duplicated text headers were inserted into data lines.
+   Resolved data anomalies by filtering out row errors where duplicated text headers were inserted into data lines.
 
-Fixed explicit structural data types, converting Month to categorical integers, and text fields like Quantity Ordered and Price Each into precise numeric floating points.
+   Fixed explicit structural data types, converting Month to categorical integers, and text fields like Quantity Ordered and Price Each into precise numeric floating points.
 
 3. Feature Engineering
-Formulated a key Sales metric by multiplying the volume ordered by individual unit prices to calculate localized revenue performance per transaction.
+   Formulated a key Sales metric by multiplying the volume ordered by individual unit prices to calculate localized revenue performance per transaction.
+  
+   Extracted hidden temporal markers (Hour, Month) from standard date strings to evaluate chronological buying patterns.
 
-Extracted hidden temporal markers (Hour, Month) from standard date strings to evaluate chronological buying patterns.
-
-# 📈 Core Business Questions Answered
+# Results
 ## *- What was the best month for sales?* 
 Analyzed seasonal revenue fluctuations, identifying December as the peak period with ~4.61M in revenue, heavily driven by holiday demand.
 
@@ -63,7 +64,7 @@ AAA batteries are everyday consumable items. They power a massive array of house
 ![img4](images/img4.png)
 
 
-# 🛠️ Tech Stack & Libraries
+# Tech Stack & Libraries
 Language: Python
 
 Data Wrangling: Pandas, NumPy
