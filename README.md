@@ -1,4 +1,4 @@
-# E-Commerce Sales Performance & Consumer Behavior Analysis
+<img width="951" height="108" alt="image" src="https://github.com/user-attachments/assets/0235e23b-246f-4984-b407-29ac7c00d97a" /># E-Commerce Sales Performance & Consumer Behavior Analysis
 # 📌 Project Overview
 This repository contains an end-to-end Python data analysis project focused on cleaning, engineering, and exploring a 12-month electronics retail dataset. The project transitions raw, fragmented monthly transactional data into an optimized master dataset to extract key business intelligence insights regarding seasonal trends, regional demand, advertising schedules, and cross-selling product bundles.
 
@@ -35,7 +35,7 @@ Extracted hidden temporal markers (Hour, Month) from standard date strings to ev
 ## *- What was the best month for sales?* 
 Analyzed seasonal revenue fluctuations, identifying December as the peak period with ~4.61M in revenue, heavily driven by holiday demand.
 
-![img1](Charts/img1.png)
+![img1](images/img1.png)
 
 
 ## *- Which city achieved the highest sales volume?*
