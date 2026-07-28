@@ -35,6 +35,8 @@ Extracted hidden temporal markers (Hour, Month) from standard date strings to ev
 ## *- What was the best month for sales?* 
 Analyzed seasonal revenue fluctuations, identifying December as the peak period with ~4.61M in revenue, heavily driven by holiday demand.
 
+![img1](Charts folder/img 1.png)
+
 
 ## *- Which city achieved the highest sales volume?*
 Mapped geographical data to prove San Francisco (CA) completely dominates sales with over 8.2M in volume, indicating a primary strategic market hub.
